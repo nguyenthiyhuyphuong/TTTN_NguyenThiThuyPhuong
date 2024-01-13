@@ -1,0 +1,23 @@
+{
+    "name": "nguyenthithuyphuong/shop-gau-bong",
+    "description": "Học lập trình webside với thầy Lợi",
+    "authors": [
+        {
+            "name": "Nguyen Thi Thuy Phuong",
+            "email": "pn1792003@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        },
+        "files": [
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^8.83",
+        "illuminate/events": "^8.83"
+    }
+}
